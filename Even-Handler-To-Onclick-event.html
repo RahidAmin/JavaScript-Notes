@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="OnClickAlartFunction()">Click me</button>
+    <br>
+    <!-- make paragraph -->
+   
+    <button onclick="message1()">Message</button>
+    <p id="pra"></p>
+    <br>
+
+
+    <!-- For Images -->
+    <button onclick="GetImage()">Get Image</button>
+    <br>
+     <img id="myImg" src="#" alt="">
+
+    <script>
+        function OnClickAlartFunction()
+        {
+            alert('Hello!How are you??')
+        }
+        
+        function message1()
+        {
+            var msg=document.querySelector("#pra");
+            msg.innerHTML="You Have Clicked on the message Button";
+        }
+        
+
+        // image
+
+        function GetImage()
+        {
+         var i=document.querySelector("#myImg");
+         i.src="images/1.png";
+
+        }
+
+    </script>
+</body>
+</html>
