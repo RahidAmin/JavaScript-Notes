@@ -17,6 +17,18 @@ for(var i=0;i<btnLength;i++){
 }
 
 
+//--------------keypress listener------------//
+
+document.addEventListener("keypress",function(press)
+{
+  var text=press.key;
+  audioPlay(text);
+  playAnimation(text);
+});
+
+
+
+
 function audioPlay(text)
 {
     switch(text)
