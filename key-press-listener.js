@@ -7,3 +7,9 @@ document.addEventListener("keypress",function(event){
    document.querySelector("p").innerHTML="You Have Type: "+text;
 
 });
+
+
+//-------------------------For textarea-----------------------------//
+// document.querySelector("textarea").addEventListener("keypress",function(event){
+
+// });
