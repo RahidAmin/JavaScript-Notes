@@ -16,6 +16,8 @@ function confirmBox()
 }
 confirmBox();
 
+
+//prompt
 function message()
 {
     var msg=prompt("Enter Your name: ");
