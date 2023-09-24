@@ -13,10 +13,18 @@ let dataLoading=()=>
 {
     console.log("Task 2,Data loading")
 }
+
 let task2=()=>
 {
-    setTimeout(dataLoading,2000); 
+    setTimeout(dataLoading,2000);   ///asynchronous
 }
+// let task2=()=>
+// {
+//     setTimeout(()=>
+//     {
+//         console.log("Task 2,Data loading")
+//     },2000); 
+// }
 let task3=()=>
 {
     console.log("This is task 3");
